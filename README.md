@@ -1,4 +1,4 @@
-                                                                                            ##  Supermarket Recommendation System
+# Supermarket Recommendation System                                                                                           
 
 A deep learning–based recommendation engine built using **PyTorch**, designed to predict user preferences in a supermarket environment based on their historical purchase behavior.
 
