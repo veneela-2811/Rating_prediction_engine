@@ -1,0 +1,322 @@
+Embedding Sweep Results - 2025-12-15 19:14:59.681387
+============================================================
+
+Embedding dimension: 16
+----------------------------------------
+=== Training Output ===
+Epoch 01 | Train Loss: 0.0354 | Val Loss: 0.0332
+Epoch 02 | Train Loss: 0.0336 | Val Loss: 0.0329
+Epoch 03 | Train Loss: 0.0336 | Val Loss: 0.0327
+Epoch 04 | Train Loss: 0.0333 | Val Loss: 0.0325
+Epoch 05 | Train Loss: 0.0328 | Val Loss: 0.0322
+Epoch 06 | Train Loss: 0.0321 | Val Loss: 0.0320
+Epoch 07 | Train Loss: 0.0316 | Val Loss: 0.0319
+Epoch 08 | Train Loss: 0.0309 | Val Loss: 0.0318
+Epoch 09 | Train Loss: 0.0304 | Val Loss: 0.0317
+Epoch 10 | Train Loss: 0.0299 | Val Loss: 0.0317
+Epoch 11 | Train Loss: 0.0294 | Val Loss: 0.0317
+Epoch 12 | Train Loss: 0.0288 | Val Loss: 0.0317
+Epoch 13 | Train Loss: 0.0283 | Val Loss: 0.0318
+Epoch 14 | Train Loss: 0.0277 | Val Loss: 0.0318
+Epoch 15 | Train Loss: 0.0273 | Val Loss: 0.0319
+Early stopping at epoch 15
+Saved recommendation_model_16.pkl
+
+=== Masked Test Output ===
+Fixed masked evaluation:
+
+User 3, Item 114:
+  Actual rating: 3.0
+  Predicted similarity score: 0.0924
+User 7, Item 4:
+  Actual rating: 4.0
+  Predicted similarity score: 0.3569
+User 12, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.2771
+User 18, Item 9:
+  Actual rating: 3.0
+  Predicted similarity score: 0.2193
+User 25, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.2700
+User 31, Item 32:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3414
+User 44, Item 37:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3376
+User 52, Item 40:
+  Actual rating: 3.0
+  Predicted similarity score: 0.0827
+User 60, Item 66:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4218
+User 71, Item 54:
+  Actual rating: 3.0
+  Predicted similarity score: 0.1945
+
+Accuracy proxy: 0/10
+
+
+============================================================
+
+Embedding dimension: 32
+----------------------------------------
+=== Training Output ===
+Epoch 01 | Train Loss: 0.0355 | Val Loss: 0.0331
+Epoch 02 | Train Loss: 0.0338 | Val Loss: 0.0329
+Epoch 03 | Train Loss: 0.0337 | Val Loss: 0.0328
+Epoch 04 | Train Loss: 0.0334 | Val Loss: 0.0326
+Epoch 05 | Train Loss: 0.0329 | Val Loss: 0.0323
+Epoch 06 | Train Loss: 0.0324 | Val Loss: 0.0320
+Epoch 07 | Train Loss: 0.0317 | Val Loss: 0.0318
+Epoch 08 | Train Loss: 0.0311 | Val Loss: 0.0316
+Epoch 09 | Train Loss: 0.0304 | Val Loss: 0.0314
+Epoch 10 | Train Loss: 0.0298 | Val Loss: 0.0314
+Epoch 11 | Train Loss: 0.0292 | Val Loss: 0.0313
+Epoch 12 | Train Loss: 0.0286 | Val Loss: 0.0312
+Epoch 13 | Train Loss: 0.0280 | Val Loss: 0.0312
+Epoch 14 | Train Loss: 0.0274 | Val Loss: 0.0313
+Epoch 15 | Train Loss: 0.0268 | Val Loss: 0.0313
+Epoch 16 | Train Loss: 0.0263 | Val Loss: 0.0313
+Epoch 17 | Train Loss: 0.0258 | Val Loss: 0.0314
+Early stopping at epoch 17
+Saved recommendation_model_32.pkl
+
+=== Masked Test Output ===
+Fixed masked evaluation:
+
+User 3, Item 114:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3601
+User 7, Item 4:
+  Actual rating: 4.0
+  Predicted similarity score: 0.3826
+User 12, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.2825
+User 18, Item 9:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4086
+User 25, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5655
+User 31, Item 32:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3710
+User 44, Item 37:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4236
+User 52, Item 40:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3371
+User 60, Item 66:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4237
+User 71, Item 54:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4415
+
+Accuracy proxy: 1/10
+
+
+============================================================
+
+Embedding dimension: 48
+----------------------------------------
+=== Training Output ===
+Epoch 01 | Train Loss: 0.0356 | Val Loss: 0.0331
+Epoch 02 | Train Loss: 0.0337 | Val Loss: 0.0329
+Epoch 03 | Train Loss: 0.0335 | Val Loss: 0.0327
+Epoch 04 | Train Loss: 0.0332 | Val Loss: 0.0325
+Epoch 05 | Train Loss: 0.0327 | Val Loss: 0.0322
+Epoch 06 | Train Loss: 0.0321 | Val Loss: 0.0318
+Epoch 07 | Train Loss: 0.0312 | Val Loss: 0.0315
+Epoch 08 | Train Loss: 0.0304 | Val Loss: 0.0313
+Epoch 09 | Train Loss: 0.0298 | Val Loss: 0.0312
+Epoch 10 | Train Loss: 0.0291 | Val Loss: 0.0311
+Epoch 11 | Train Loss: 0.0285 | Val Loss: 0.0309
+Epoch 12 | Train Loss: 0.0279 | Val Loss: 0.0309
+Epoch 13 | Train Loss: 0.0274 | Val Loss: 0.0309
+Epoch 14 | Train Loss: 0.0269 | Val Loss: 0.0309
+Epoch 15 | Train Loss: 0.0264 | Val Loss: 0.0308
+Epoch 16 | Train Loss: 0.0258 | Val Loss: 0.0310
+Epoch 17 | Train Loss: 0.0254 | Val Loss: 0.0309
+Epoch 18 | Train Loss: 0.0249 | Val Loss: 0.0309
+Epoch 19 | Train Loss: 0.0244 | Val Loss: 0.0309
+Epoch 20 | Train Loss: 0.0240 | Val Loss: 0.0311
+Early stopping at epoch 20
+Saved recommendation_model_48.pkl
+
+=== Masked Test Output ===
+Fixed masked evaluation:
+
+User 3, Item 114:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3700
+User 7, Item 4:
+  Actual rating: 4.0
+  Predicted similarity score: 0.5364
+User 12, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3964
+User 18, Item 9:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5063
+User 25, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4698
+User 31, Item 32:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4481
+User 44, Item 37:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5292
+User 52, Item 40:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3739
+User 60, Item 66:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4522
+User 71, Item 54:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5212
+
+Accuracy proxy: 4/10
+
+
+============================================================
+
+Embedding dimension: 64
+----------------------------------------
+=== Training Output ===
+Epoch 01 | Train Loss: 0.0355 | Val Loss: 0.0329
+Epoch 02 | Train Loss: 0.0337 | Val Loss: 0.0329
+Epoch 03 | Train Loss: 0.0336 | Val Loss: 0.0327
+Epoch 04 | Train Loss: 0.0333 | Val Loss: 0.0325
+Epoch 05 | Train Loss: 0.0329 | Val Loss: 0.0322
+Epoch 06 | Train Loss: 0.0322 | Val Loss: 0.0319
+Epoch 07 | Train Loss: 0.0314 | Val Loss: 0.0315
+Epoch 08 | Train Loss: 0.0305 | Val Loss: 0.0312
+Epoch 09 | Train Loss: 0.0298 | Val Loss: 0.0310
+Epoch 10 | Train Loss: 0.0291 | Val Loss: 0.0309
+Epoch 11 | Train Loss: 0.0285 | Val Loss: 0.0309
+Epoch 12 | Train Loss: 0.0279 | Val Loss: 0.0307
+Epoch 13 | Train Loss: 0.0274 | Val Loss: 0.0307
+Epoch 14 | Train Loss: 0.0269 | Val Loss: 0.0307
+Epoch 15 | Train Loss: 0.0264 | Val Loss: 0.0307
+Epoch 16 | Train Loss: 0.0259 | Val Loss: 0.0307
+Epoch 17 | Train Loss: 0.0254 | Val Loss: 0.0306
+Epoch 18 | Train Loss: 0.0249 | Val Loss: 0.0308
+Epoch 19 | Train Loss: 0.0245 | Val Loss: 0.0307
+Epoch 20 | Train Loss: 0.0241 | Val Loss: 0.0309
+Epoch 21 | Train Loss: 0.0237 | Val Loss: 0.0308
+Epoch 22 | Train Loss: 0.0234 | Val Loss: 0.0309
+Early stopping at epoch 22
+Saved recommendation_model_64.pkl
+
+=== Masked Test Output ===
+Fixed masked evaluation:
+
+User 3, Item 114:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4065
+User 7, Item 4:
+  Actual rating: 4.0
+  Predicted similarity score: 0.5140
+User 12, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4866
+User 18, Item 9:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4284
+User 25, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5902
+User 31, Item 32:
+  Actual rating: 3.0
+  Predicted similarity score: 0.2987
+User 44, Item 37:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5523
+User 52, Item 40:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3810
+User 60, Item 66:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4649
+User 71, Item 54:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5015
+
+Accuracy proxy: 4/10
+
+
+============================================================
+
+Embedding dimension: 128
+----------------------------------------
+=== Training Output ===
+Epoch 01 | Train Loss: 0.0355 | Val Loss: 0.0330
+Epoch 02 | Train Loss: 0.0337 | Val Loss: 0.0329
+Epoch 03 | Train Loss: 0.0335 | Val Loss: 0.0327
+Epoch 04 | Train Loss: 0.0333 | Val Loss: 0.0325
+Epoch 05 | Train Loss: 0.0328 | Val Loss: 0.0321
+Epoch 06 | Train Loss: 0.0320 | Val Loss: 0.0318
+Epoch 07 | Train Loss: 0.0313 | Val Loss: 0.0315
+Epoch 08 | Train Loss: 0.0304 | Val Loss: 0.0313
+Epoch 09 | Train Loss: 0.0298 | Val Loss: 0.0311
+Epoch 10 | Train Loss: 0.0291 | Val Loss: 0.0310
+Epoch 11 | Train Loss: 0.0285 | Val Loss: 0.0308
+Epoch 12 | Train Loss: 0.0279 | Val Loss: 0.0307
+Epoch 13 | Train Loss: 0.0272 | Val Loss: 0.0306
+Epoch 14 | Train Loss: 0.0267 | Val Loss: 0.0305
+Epoch 15 | Train Loss: 0.0261 | Val Loss: 0.0305
+Epoch 16 | Train Loss: 0.0256 | Val Loss: 0.0305
+Epoch 17 | Train Loss: 0.0250 | Val Loss: 0.0305
+Epoch 18 | Train Loss: 0.0245 | Val Loss: 0.0305
+Epoch 19 | Train Loss: 0.0240 | Val Loss: 0.0305
+Epoch 20 | Train Loss: 0.0237 | Val Loss: 0.0306
+Early stopping at epoch 20
+Saved recommendation_model_128.pkl
+
+=== Masked Test Output ===
+Fixed masked evaluation:
+
+User 3, Item 114:
+  Actual rating: 3.0
+  Predicted similarity score: 0.3598
+User 7, Item 4:
+  Actual rating: 4.0
+  Predicted similarity score: 0.4725
+User 12, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4956
+User 18, Item 9:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5151
+User 25, Item 41:
+  Actual rating: 3.0
+  Predicted similarity score: 0.6233
+User 31, Item 32:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5171
+User 44, Item 37:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5531
+User 52, Item 40:
+  Actual rating: 3.0
+  Predicted similarity score: 0.4653
+User 60, Item 66:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5933
+User 71, Item 54:
+  Actual rating: 3.0
+  Predicted similarity score: 0.5364
+
+Accuracy proxy: 6/10
+
+
+============================================================
+
